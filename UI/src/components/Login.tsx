@@ -7,6 +7,7 @@ export const Login = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const navigate = useNavigate();
+  
 
   const handleLogin = (e:any) => {
     e.preventDefault();
